@@ -14,7 +14,7 @@ default_args = {
     "owner":"airflow",
     "email_on_failure":False,
     "email_on_retry":False,
-    "email":"Ze.elhadkah@gmail.com",
+    "email":"Ze.kah@gmail.com",
     "retries":2,
     "retry_delay": timedelta(minutes=5)
 }
@@ -171,8 +171,8 @@ send_slack_notification = SlackWebhookOperator(
 #1- customize slack channel tha you will send notification for 
 #2- open "api.slack.com/app" create new manual app and create new web hook
 #3- add new connection (conn type = http,
-# if the link is https://hooks.slack.com/services/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
-# So host = https://hooks.slack.com/services and password = T069NH1C4MP/B069NK10W3T/s6aweaUtNbOq3KqlfPoXJr0d)
+# if the link is https://hooks.slack.com/services/T069NH1C4MP/xxxxxxxxxx/s6aweaUtNbOq3KqlfPoXJr0d
+# So host = https://hooks.slack.com/services and password = xxxxxxxxx4MP/B069NK10W3T/s6aweaUtNbOq3KqlfPoXJr0d)
 #4-test
 
 
